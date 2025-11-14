@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Inc. - Coming Soon</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Segment Analytics.js -->
+    <script type="text/javascript">
+        !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="YOUR_WRITE_KEY_HERE";;analytics.SNIPPET_VERSION="4.15.3";
+        analytics.load("YOUR_WRITE_KEY_HERE");
+        analytics.page();
+        }}();
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="nav-link">Home</a>
+    </nav>
+
+    <div class="container">
+        <div class="content">
+            <p class="subtitle">WE ARE LAUNCHING OUR WEBSITE SOON.</p>
+            <h1 class="title">MARKETING INC.</h1>
+            <p class="description">Change anything you want to make this your website.</p>
+            
+            <form id="newsletter-form" class="email-form">
+                <div class="input-group">
+                    <label for="email" class="input-label">Enter your email here</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        placeholder="" 
+                        required
+                        class="email-input"
+                    >
+                </div>
+                
+                <div class="checkbox-group">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Yes, subscribe me to your newsletter</label>
+                </div>
+                
+                <button type="submit" class="submit-btn">Notify Me!</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="chat-button">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 0C4.477 0 0 4.477 0 10c0 1.89.525 3.66 1.438 5.168L0 20l4.832-1.438C6.34 19.475 8.11 20 10 20c5.523 0 10-4.477 10-10S15.523 0 10 0z" fill="currentColor"/>
+        </svg>
+        Let's Chat!
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
